@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS para registro de empresa */
+
+/*
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Poiret One', cursive;
+*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,400,100);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Poiret+One|Open+Sans:300,400);
+
+*{
+	margin:0px;
+	padding:0px;
+	}
+html{
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%}
+ body{
+	 margin:0px;
+	 background:#fff;
+	 
+ 
+ }
+ /*-----css formulario de login   #b91110  */
+ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+ 
+	.contenido-lef{
+	background:#ffffff;
+	border: 1px solid #ececec;
+	padding: 5px;
+	min-height: 343px;
+	width:70%;
+	margin-right:2%;
+	
+	}
+	
+	.titulo{
+		width:100%;
+		background:#b91110;
+		float:left;
+		border:2px solid #E9E9E9;
+		margin-bottom:10px;
+		font-family:Raleway;
+		font-size:15px;
+		color:#fff;
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:5px;		
+		}
+	.titulo h4{
+		color:#fff;
+		font-family:Raleway;
+		font-size:22px;
+		padding-bottom:3px;
+		padding-top:3px;
+		}
+	.titulo h3{
+		color:#fff;
+		font-family:Raleway;
+		font-size:22px;
+		padding-bottom:3px;
+		padding-top:3px;
+		}
+	
+	.subTitulo{
+		width:100%;
+		height:30px;
+		background:rgba(217,217,217,0.2);
+		float:left;
+		/*border:1px solid #b91110;*/
+		text-align:center;
+		margin-bottom:10px;
+		}
+	.subTitulo h4{
+		color:#b91110;
+		font-family:Raleway;
+		font-size:16px;
+		padding-bottom:3px;
+		padding-top:6px;
+		}
+		
+/*--------------foto de perfil--------*/		
+	.fotosPerfil{
+		width:25%;
+		height:190px;
+		background:#fff;
+		float:left;
+		border-radius:150px;
+		border:1px double #fff;
+		
+		}
+	.fotosPerfil img{
+		width:100%;
+		height:190px;
+		background:#fff;
+		float:left;
+		border-radius:150px;
+				
+		}
+/*------------------------------------*/
+	.fotosPortada{
+		width:73%;
+		height:190px;
+		background:#fff;
+		float:left;
+		border:1px solid #fff;
+		margin-left:10px;
+		margin-bottom:10px;
+		
+		}
+	.imgportada{
+		width:85%;
+		height:190px;
+		background:#fff;
+		margin-left:50px;
+						
+		}
+	.archivo{
+		display:none;
+		}
+/*--------------------------------------*/	
+	.formRegistroempresa1{
+		width:40%;
+		height:250px;
+		background:#ececec;
+		float:left;
+		border:1px #E8E8E8 solid;
+		margin-bottom:10px;
+		}
+	.inputformEmpresa{
+		width:97%;
+		height:30px;
+		font-family:Raleway;
+		font-size:15px;
+		border:1px solid #b91110;
+		margin-left:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-left:10px;
+		margin-bottom:5px;
+		margin-top:5px;
+		border-radius:3px;
+		}
+		
+	.textareaform{
+		width:97%;
+		height:50px;
+		background:#fff;
+		border:1px solid#b91110;
+		color:#b91110;
+		font-family:Raleway;
+		margin-left:5px;
+		margin-bottom:0px;
+		}	
+		
+	.formRegistroempresa2{
+		width:58%;
+		
+		background:#b91110;
+		float:left;
+		border:1px #E8E8E8 solid;
+		margin-bottom:10px;
+		margin-left:5px;
+		text-align:center;
+		}
+	.btnHorario{
+		width:100%;
+		background:#b91110;
+		font-family:Raleway;
+		font-size:17px;
+		color:#fff;
+		border:1px solid #fff;
+		text-align:center;
+		
+		}
+	.btnHorario a{
+		color:#fff;
+		
+		}
+	.mapa{
+		
+		width:98%;
+		background:#ececec;
+		height:280px;
+		margin-left:3px;
+		margin-bottom:5px;
+		margin-top:10px;
+		float:left;
+		
+		
+		}
+	.btnRegistrar{
+		width:90%;
+		height:50px;
+		font-family:Raleway;
+		font-size:20px;
+		text-align:center;
+		margin-top:20px;
+		margin-bottom:5px;
+		margin-left:17px;
+		color:#fff;
+		padding-top:5px;
+		background:#b91110;
+		
+		}
+	.selec{
+		width:54%;
+		float:left;
+		}
+		
+	/*----autocomplete*/
+	/** page structure **/
+
+
+.biginput {
+  width: 100px;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  background-color: #F1999A;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  color: #000000;
+  font-weight:normal;
+  font-size: 1.5em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+
+.autocomplete-suggestions { border: 1px solid #999; background: #30641B; cursor: default; overflow: auto; }
+.autocomplete-suggestion { padding: 10px 5px; font-size: 1.2em; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #f0f0f0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399ff; }
+	
+	/*---------------*/
+	
+	

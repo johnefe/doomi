@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* css para la ventana modal de  horario de atencion */
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/roboto/v15/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+body{font-family: Arial,sans-serif;color:#333;}
+
+h2{
+	font-size:60px;
+}
+.modalmask {
+	position: fixed;
+	font-family: Arial, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(209,209,209,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalmask:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalbox{
+		width: 55%;
+		height:480px;
+		position: relative;
+		/*padding: 5px 20px 13px 20px;*/
+		background: rgba(235,235,235,0.4);
+		border-radius:3px;
+		-webkit-transition: all 500ms ease-in;
+		-moz-transition: all 500ms ease-in;
+		transition: all 500ms ease-in;
+		margin:50px auto;
+		box-shadow:4px 4px 8px 4px #525252;
+	
+}
+
+.movedown {
+	margin: 0 auto;
+}
+.rotate {
+	margin: 10% auto;
+	-webkit-transform: scale(-5,-5); 
+	transform: scale(-5,-5);
+}
+.resize {
+	margin: 5% auto;
+	width:0;
+	height:0;
+
+}
+.modalmask:target .movedown{		
+	margin:10% auto;
+}
+.modalmask:target .rotate{		
+	transform: rotate(360deg) scale(1,1);
+    -webkit-transform: rotate(360deg) scale(1,1);
+}
+
+.modalmask:target .resize{
+	width:400px;
+	height:200px;
+}
+
+
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: 1px;
+	text-align: center;
+	top: 1px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius:3px;
+	font-size:16px;
+}
+
+.close:hover { 
+	background: #FAAC58; 
+	color:#222;
+}
+
+.nsc{
+	position:absolute;
+	bottom:40%;
+	right:0;
+}
+
+.tituloHorarios{
+	width:100%;
+	height:200px;
+	background:#b91110;
+	color:#fff;
+	text-align:center;
+	float:left;
+	margin-bottom:5px;	
+	
+	}
+	
+.tituloH {
+	font-family:Raleway;
+	color:#fff;
+	font-size:25px;
+	width:100%;
+	padding-top:20px;
+	text-align:center;
+	margin-bottom:5px;	
+	
+	}
+.imagenH{
+	font-family:Raleway;
+	color:#fff;
+	font-size:25px;
+	width:9%;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	background:rgba(221,221,221,0.4);
+	border-radius:60px;
+	margin-left:45%;
+	margin-bottom:15px;
+	
+	
+	}
+.imagenH img{
+	width:40px;
+	height:40px;
+	
+	}
+.formHorario {
+	width:100%;
+	height:290px;
+	background:#fff;
+	margin-top:1px;
+	float:left;
+	}
+.footerHorario{
+	width:100%;
+	height:56px;
+	background:rgba(216,216,216,0.6);
+	float:left;
+	color:#000000;
+	font-size:15px;
+	font-family:Raleway;
+	padding-top:15px;
+	}
+.cajasHoras{
+	width:100%;
+	float:left;
+	background:#fff;
+	height:200px;
+	overflow:scroll;
+	padding-left:15px;
+	padding-top:15px;
+	overflow-x: hidden;
+	
+	}
+	.cajasHoras img{
+		width:20px;
+		height:20px;
+		float:left;
+		padding-top:10px;
+		padding-left:10px;
+		cursor:pointer;
+		
+		}
+	.NewCajas{
+		width:100%;
+		float:left;
+		margin-bottom:5px;
+		}
+	
+	.dias {
+		width:25%;
+		height:30px;
+		color:#000000;
+		font-family:Raleway;
+		font-size:15px;
+		float:left;
+		border:1px solid #AAA7A7;
+		
+		}
+	.hora {
+		width:13%;
+		height:30px;
+		color:#000000;
+		font-family:Raleway;
+		font-size:15px;
+		float:left;
+		
+		margin-left:8px;	
+		}
+	.horas{
+		width:100%;
+		height:30px;
+		}
+	.hora1 {
+		width:10%;
+		height:30px;
+		color:#000000;
+		font-family:Raleway;
+		font-size:15px;
+		float:left;
+		border:1px solid #AAA7A7;
+			
+		}
+	.guion{
+		color:#000000;
+		font-size:15px;
+		width:3%;
+		float:left;
+		padding-top:5px;
+		
+		}
+	.botonAgregar{
+		width:100%;
+		float:left;
+		height:35px;
+		background:#fff;
+		text-align:left;
+		padding-top:5px;
+		padding-left:15px;
+		font-family:Raleway;
+		font-size:15px;
+		color:#b91110;
+			
+		}
+	.botonAgregar img{
+		width:15px;
+		height:13px;
+		padding-right:3px;
+		}
+	.botonAgregar a{
+		text-decoration:none;
+		color:#b91110;
+		cursor:pointer;
+		}	
+	.botonesFinal{
+		width:100%;
+		float:left;
+		height:35px;
+	}
+	.botonesFinal a{
+		text-decoration:none;
+		}
+	.botonesFinal a:hover{
+		color:#fff;
+		font-style:normal;
+		}
+	.btnguardar{
+		background:#b91110;
+		color:#fff;
+		padding-bottom:5px;
+		padding-left:5px;
+		padding-top:5px;
+		font-family:Raleway;
+		font-size:15px;
+		padding-right:5px;
+		border-radius:2px;
+		float:left;
+		margin-left:15px;
+		cursor:pointer;
+		margin-top:5px;
+		}
+		
+	.btncancelar{
+		background:#C8C5C5;
+		color:#000000;
+		padding-bottom:5px;
+		padding-left:5px;
+		padding-top:5px;
+		font-family:Raleway;
+		font-size:15px;
+		padding-right:5px;
+		border-radius:2px;
+		float:left;
+		margin-left:15px;
+		cursor:pointer;
+		margin-top:5px;
+		}	

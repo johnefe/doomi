@@ -1,0 +1,876 @@
+/*
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Poiret One', cursive;
+*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,400,100);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Poiret+One|Open+Sans:300,400);
+
+*{
+	margin:0px;
+	padding:0px;
+	}
+html{
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%}
+ body{
+	 margin:0px;
+	 background:#fff;
+	 
+ 
+ }
+ /*-----css formulario de login*/
+ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+ 
+ .contenido{
+	 background:rgba(197,21,21,1.00);
+	 border:1px solid rgba(197,21,21,1.00);
+	 max-width:450px;
+	 height:650px;
+	 margin: 0 auto;
+	 border-radius:10px;
+	 box-shadow:  0px 0px 1px 0px rgba(197,21,21,1.00) ;
+	 text-align:center;
+	 align-content:center;
+	 }
+	.logo{
+		width:35%;
+		margin:10px 100px;
+		}
+	.logo:hover{
+		
+		width:35%;}
+.titulo-form{
+	width:100%;
+	height:10%;
+	background:rgba(197,21,21,1.00);
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	text-align:center;
+	
+	}
+.titulo-form h2{
+	color:#fff;
+	font-size:23px;
+	font-family: 'Poiret One', cursive;
+	padding:13px;
+	}
+.logo-form{
+	width:100%;
+	height:25%;
+	background:#fff;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+		}
+.label-form{
+	color:rgba(197,21,21,1.00);
+	font-size:16px;
+	margin:10px 60px;
+	font-family: 'Ubuntu', sans-serif;
+	}
+.formulario{
+	width:100%;
+	height:65%;
+	background:#fff;
+	margin:0 auto;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	
+	}
+.cajas{
+	width:70%;
+	height:45px;
+	margin:10px 60px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	border: 1px solid rgba(197,21,21, 1.00);	
+	color:rgba(197,21,21, 1.00);
+	font-size:18px;
+	text-align:center;
+	}
+.cajas:focus{
+	color:rgba(197,21,21, 1.00);
+	}
+.btn{
+	width:70%;
+	height:45px;
+	margin:10px 60px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	border:none;	
+	background:rgba(197,21,21, 1.00);
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	}
+	
+#fb{
+	background:#3F51B5;
+	box-shadow:1px 2px 0 0 #3F51B5;
+	}
+.pie-form{
+	width:100%;
+	height:10%;
+	background-color:rgba(197,21,21, 0.9);
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border: 1px solid rgba(197,21,21, 0.7);
+	text-align:left;
+	}
+label a{
+	text-decoration:none;
+	color:rgba(197,21,21, 0.7);
+	}
+label a:hover{
+	text-decoration:underline;
+	color:rgba(197,21,21, 0.7);
+	}
+.pie-form h2{
+	width:70%;
+	color:#fff;
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	margin:2px;
+	float:left;
+	}
+.pie-form a{
+	width:26%;
+	color:#fff;
+	font-size:18px;
+	font-family: 'Open Sans', sans-serif;
+	margin:2px;
+	float:left;
+	}
+ .pie-form a:hover{
+	 text-decoration:underline;
+	 font-size:15px;
+	 }
+.pie-form ul{
+	 list-style:none;
+	 float:left;
+	 
+	 }
+ 
+  /*-----fin css formulario de login*/
+  
+  
+   /*-----css formulario de registro*/
+   .wrap{
+	   background:#fff;
+	   width:100%;
+	   }
+   
+.cabecera{
+	background:rgba(197,21,21,1.00);
+	width:100%;
+	height:17%;
+	position:fixed;
+	 
+	   }
+.contenido-registro{
+	background:#7C7575;
+	width:100%;
+	height:17%;
+	position:fixed;
+	margin-top:130px;
+	
+	}  
+   
+   /*-----fin css formulario de registro*/
+   
+   /*css para upload de imagenes en registro por empresa*/
+.upload{
+	background:#fff;
+	width:100%;
+	margin:0px auto;
+	padding:5px;
+	margin-left:50px;
+}
+
+.upload1{
+	background:#fff;
+	width:230px;
+	height:230px
+	margin:0px auto;
+	padding:5px;
+	margin-left:50px;
+	border-radius:200px;
+}
+.upload li{
+	 width:250px;
+	 height:180px;
+	 background:#B1B1B1 url('../images/camara1.png');
+	 margin:10px auto;
+	 cursor:pointer;
+	 vertical-align:middle;
+	}
+.upload1 li{
+	 width:200px;
+	 height:200px;
+	 background:#B1B1B1 url('../images/camara1.png');
+	 margin:10px auto;
+	 cursor:pointer;
+	 vertical-align:middle;
+	 border-radius:200px;
+	}	
+.link{
+	display:block;
+	width:250px;
+	height:180px;
+	vertical-align:middle;
+	}
+.link1{
+	display:block;
+	width:200px;
+	height:200px;
+	vertical-align:middle;
+	border-radius:200px;
+	}
+.clear{
+	clear:both;	
+	}
+.clear1{
+	clear:both;	
+	}
+.thumb {
+    height: 180px;
+	width:250px;
+    vertical-align:middle;
+	border:6px;
+  }	
+  .thumb1 {
+    height: 200px;
+	width:200px;
+    vertical-align:middle;
+	border-radius:200px;
+  }
+ .cerrar{
+	
+	height:20px;
+	width:20px;
+	overflow:visible;
+	cursor:pointer;
+	top:85px;
+	position:absolute;
+	left:335px;
+	 
+	 }
+	.cerrar1{
+	
+	height:20px;
+	width:20px;
+	overflow:visible;
+	cursor:pointer;
+	top:375px;
+	position:absolute;
+	left:335px;
+	 
+	 }
+   
+   /*fin css para upload de imagenes en registro por empresa*/
+   
+   /*css para el marco de productos*/
+   
+   
+   .marcoProducto{
+	   background:#fff;
+	   width:100%;
+	   height:700px;
+	   overflow:scroll;
+	   border:1px solid #b91110;
+	}
+	
+	.detallesProE {
+		width:100%;
+		overflow:scroll;
+		height:120px;
+		background:#fff;
+		
+		}
+	.cajaTextoDetalles{
+		width:87%;
+		background:#fff;
+		margin-left:4px;
+		float:left;
+		
+		}
+	.cajaTextoDetalles input{
+		width:100%;
+		}	
+	.botonQuitarDetalle{
+		
+		width:10%;
+		float:left;
+		height:40px;
+		border-radius:40px;
+		padding-top:5px;
+	}
+	
+	.botonQuitarDetalle img{
+		width:50%;
+		float:left;
+		height:20px;
+	}
+	
+	.contenedorProductos{
+		background:#E9E9E9;
+	   	width:32.5%;
+	   	border:1px solid #b91110;
+		padding:2px;
+		margin:2px;
+		float:left;
+		}
+	.tituloProducto{
+		background:#b91110;
+		width:100%;
+		color:#fff;
+		font-size:14px;
+		font-family:Raleway;
+		/*font-family:Courgette;*/
+		padding:3px;
+		border-radius:3px;
+		text-transform: uppercase;/*para que todo texto sea mayuscula*/
+		text-align:center;
+		word-wrap:break-word;/*para ajustar el texto a un div*/
+		white-space: pre; /* CSS 2.0 */
+		white-space: pre-wrap; /* CSS 2.1 */
+		white-space: pre-line; /* CSS 3.0 */
+		white-space: -pre-wrap; /* Opera 4-6 */
+		white-space: -o-pre-wrap; /* Opera 7 */
+		white-space: -moz-pre-wrap; /* Mozilla */
+		white-space: -hp-pre-wrap; /* HP */
+
+		}
+	.fotoProducto{
+		background:#E9E9E9;
+		width:90%;
+		height:170px;
+		margin-left:12px;
+		margin-top:3px;	
+		margin-bottom:7px;	
+		}	
+	.fotoProducto img{
+		width:100%;
+		height:170px;
+		
+		
+		}
+	.observacionProducto{
+		background:#fff;
+		width:90%;
+		padding:3px;
+		font-family:Raleway;
+		margin-left:12px;
+		margin-top:3px;
+		margin-bottom:7px;
+		}
+	.precio{
+		width:100%;
+		background:#fff;
+		padding:0px;
+		}
+	.numero{
+		width:50%;
+		float:left;
+		font-family:Courgette;
+		font-size:18px;
+		color:#b91110;
+		}
+	.editarProducto{
+		background:#b91110;
+		width:25%;
+		float:left;
+		font-size:18px;
+		font-family:Raleway;
+		color:#fff;
+		border-bottom-left-radius:2px;
+		border-top-left-radius:2px;
+		text-align:center;
+		cursor:pointer
+		}
+	.eliminarProducto{
+		background:#b91110;
+		width:25%;
+		float:left;
+		font-size:18px;
+		font-family:Raleway;
+		color:#fff;
+		text-align:center;
+		cursor:pointer
+		}
+	.imagenProEdit{
+		background:#E1D5D5;
+		width:50%;
+		height:180px;
+		margin:5px auto;
+		border-radius:150px;
+		
+		}
+	.imagenProEdit img{
+		background:#E1D5D5;
+		width:100%;
+		height:180px;
+		margin:1px auto;
+		border-radius:150px;
+		
+		}
+		
+	.formEditarProducto{
+		background:#fff;
+		width:92%;
+		margin:10px auto;
+		
+		}
+	.formEditarProducto  input,textarea{
+		width:80%;
+		height:30px;
+		font-family:Raleway;
+		color:#b91110;
+		font-size:15px;
+		padding-bottom:6px;
+		padding-top:6px;
+		margin-left:40px;
+		}
+		.formEditarProducto  textarea{
+		width:80%;
+		height:50px;
+		font-family:Raleway;
+		color:#b91110;
+		font-size:15px;
+		padding-top:6px;
+		margin-left:40px;
+		
+		font-style:normal;
+		font-weight: bold;
+		border:1px solid rgba(192,192,192,1.00);
+		}	
+		
+	.formEditarProducto h4{
+		color:#000000;
+		font-size:14px;
+		font-family:Raleway;
+		margin-left:40px;
+		}
+	.formEditarProducto select{
+		width:80%;
+		height:30px;
+		font-family:Raleway;
+		color:#b91110;
+		font-size:15px;
+		padding-bottom:5px;
+		margin-left:40px;
+		
+		}
+		
+	.addDetalle{
+		margin-left:40px;
+		padding-bottom:3px;
+		padding-top:3px;
+		}			
+   /*fin css para el marco de productos*/
+   
+   /*css para el marco de opciones categorias y form reg produc*/
+   
+   .contenedorOpciones{
+	   background:#E9E9E9;
+	   width:100%;
+	   
+	   
+	   }
+	.tituloOpciones{
+		width:100%;
+		background:#b91110;
+		color:#000000;
+		font-size:20px;
+		font-family:Raleway;/*Courgette, Raleway*/
+		text-align:center;
+		text-transform: uppercase;/*para que todo texto sea mayuscula*/
+		margin-bottom:3px;
+	}   
+	.opcion{
+		width:100%;
+		background:#b91110;
+		color:#fff;
+		font-size:20px;
+		font-family:Raleway;/*Courgette, Raleway*/
+		margin-bottom:3px;
+		padding:5px;
+		border-radius:3px;
+		cursor:pointer;
+		
+		}
+		.opcion img{
+			width:25px;
+			height:25px;
+			float:right;
+			padding-top:4px;
+			display:none;
+			}
+		.keyProducto{
+			display:none;
+			}
+		.opcion a{
+		width:100%;
+		background:#b91110;
+		color:#fff;
+		font-size:20px;
+		font-family:Raleway;/*Courgette, Raleway*/
+		margin-bottom:3px;
+		padding:5px;
+		border-radius:3px;
+		cursor:pointer;
+		text-decoration:none;
+		
+		}
+	.tituloPrincipal{
+		width:100%;
+		background:#b91110;
+		font-size:25px;
+		font-family:Courgette;
+		color:#fff;
+		text-align:center;
+		/*text-transform: uppercase;para que todo texto sea mayuscula*/
+		
+		}
+		
+	.cerrarSesion a{
+		font-size:20px;
+		font-family:Courgette;
+		color:#A0A0A0;
+		cursor:pointer;	
+		text-decoration:none;	
+		}
+		
+	.salirp {
+		font-size:20px;
+		font-family:Courgette;
+		color:#A0A0A0;
+		cursor:pointer;	
+		text-decoration:none;	
+		}
+	.cerrarSesion a:hover{
+		color:#b91110;
+		}	
+	.tituloPrincipal a{
+		text-decoration:none;
+		color:#fff;
+		
+		}
+	.nuevoProducto{
+		width:98%;
+		background:#E9E9E9;
+		border:1px solid #b91110;
+		font-family:Raleway;
+		margin:2px;
+		display:none;
+		}
+	.buscarProducto{
+		width:98%;
+		background:#E9E9E9;
+		border:1px solid #b91110;
+		font-family:Raleway;
+		margin:2px;
+		display:none;
+		}	
+	.nuevoProducto select,input{
+		width:100%;
+		height:30px;
+		font-size:18px;
+		color:#b91110;
+		margin-bottom:3px;
+		font-family:Raleway;
+		}
+	.nuevoProducto textarea {
+	width:100%;
+	height:100px;
+	font-size:18px;
+	color:#b91110;
+	border: 1px solid #AAAAA9;
+	padding:0;
+	background:#fff;
+	font-family:Raleway;
+	}	
+	
+   
+   
+   
+   
+   
+   
+   
+    /*css para el marco de opciones categorias y form reg produc*/
+	
+	/*css para la ventana modal de productos por empresa*/
+	
+.center{
+	position:absolute;
+	width:1200px;
+	height:12600px;
+	top:50%;
+	left:50%;
+	margin-left:-350px;
+	margin-top:-250px;	
+
+}
+
+	.proAgr{
+		width:85%;
+		background:#fff;/*#b91110*/
+		margin:10px auto;
+		padding:3px;
+		border:4px solid #b91110;
+		
+		}
+		
+	.proAgr1{
+		width:99%;
+		background:#fff;
+		margin:10px auto;
+		padding:3px;
+		}	
+		
+	.proAgr2{
+		width:80%;
+		background:#fff;/*#b91110*/
+		margin:10px auto;
+		padding:3px;
+		border:2px solid #b91110;
+		
+		}
+		
+	.proAgr12{
+		width:99%;
+		background:#fff;
+		margin:10px auto;
+		padding:3px;
+		}	
+		
+		.tituloproAgr{
+			background:#b91110;
+			width:90%;
+			height:43px;
+			color:#fff;
+			font-family:Courgette;
+			margin:10px auto;
+			border:5px solid rgba(216,216,216,0.8);
+			padding-top:4px;
+			text-align:center;
+			border-radius:3px;
+			
+			}
+		.productosAgr{
+			background:#fff;
+			width:98%;
+			border:1px dashed #b91110;
+			height:520px;
+			margin:10px auto;
+			overflow:scroll;
+			
+			}
+			.productosAgr2{
+			background:#fff;
+			width:98%;
+			/*border:1px dashed #b91110;*/
+			height:100px;
+			margin:10px auto;
+			/*overflow:scroll;*/
+			
+			}
+			.productosAgr3{
+			background:#fff;
+			width:98%;
+			/*border:1px dashed #b91110;*/
+			
+			margin:10px auto;
+			/*overflow:scroll;*/
+			
+			}
+			.botones{
+				width:100%;
+				}
+			.aceptar{
+				width:40%;
+				float:left;
+				margin-bottom:5px;
+				}
+			.aceptar img{
+				float:right;
+				margin-bottom:5px;
+				cursor:pointer;
+				}
+			.aceptar img:hover{
+				background:#D3D3D3;
+				border-radius:12px;
+				}
+			.cancelar img:hover{
+				background:#D3D3D3;
+				border-radius:12px;
+				}
+			.cancelar{
+				width:40%;
+				float:right;
+				margin-bottom:5px;
+				}
+			.cancelar img{
+				float:left;
+				margin-bottom:5px;
+				cursor:pointer;
+				}
+			.mensajeAlerta{
+				color:#000000;
+				font-size:16px;
+				font-family:Raleway;
+				text-align:center;
+				}
+				
+			.tituloproAgr h2{
+				font-size:25px;
+				color:#fff;
+				font-family:Courgette;
+			}
+			.eliminarProductoR{
+			background:#b91110;
+			width:50%;
+			float:left;
+			font-size:18px;
+			font-family:Raleway;
+			color:#fff;
+			text-align:center;
+			cursor:pointer;
+			}
+	.modalmask {
+		position: fixed;
+		font-family: Arial, sans-serif;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		opacity:0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+	.modalmask2 {
+		position: fixed;
+		font-family: Arial, sans-serif;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		opacity:0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+	.modalmask:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+	.modalmask2:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+	.modalbox{
+		width: 100%;
+		height:900px;
+		position: relative;
+		padding: 5px 20px 13px 20px;
+		background: rgba(0,0,0,0,0.5);
+		border-radius:3px;
+		-webkit-transition: all 500ms ease-in;
+		-moz-transition: all 500ms ease-in;
+		transition: all 500ms ease-in;
+		
+	}
+	.modalbox2{
+		width: 50%;
+		height:100px;
+		position: relative;
+		padding: 5px 20px 13px 20px;
+		background: rgba(0,0,0,0,0.5);
+		border-radius:3px;
+		-webkit-transition: all 500ms ease-in;
+		-moz-transition: all 500ms ease-in;
+		transition: all 500ms ease-in;
+		margin:10px auto;
+		
+	}
+	
+	.movedown {
+		margin: 0 auto;
+	}
+	.rotate {
+		margin: 10% auto;
+		-webkit-transform: scale(-5,-5); 
+		transform: scale(-5,-5);
+	}
+	.resize {
+		margin: 5% auto;
+		width:0;
+		height:0;
+	
+	}
+	.movedown2 {
+		margin: 0 auto;
+	}
+	.rotate2 {
+		margin: 10% auto;
+		-webkit-transform: scale(-5,-5); 
+		transform: scale(-5,-5);
+	}
+	.resize2 {
+		margin: 5% auto;
+		width:0;
+		height:0;
+	
+	}
+	.modalmask:target .movedown{		
+		margin:10% auto;
+	}
+	.modalmask:target .rotate{		
+		transform: rotate(360deg) scale(1,1);
+		-webkit-transform: rotate(360deg) scale(1,1);
+	}
+	
+	.modalmask:target .resize{
+		width:400px;
+		height:200px;
+	}
+	.modalmask2:target .movedown2{		
+		margin:10% auto;
+	}
+	.modalmask2:target .rotate2{		
+		transform: rotate(360deg) scale(1,1);
+		-webkit-transform: rotate(360deg) scale(1,1);
+	}
+	
+	.modalmask2:target .resize2{
+		width:400px;
+		height:100px;
+	}
+	
+	
+	.closed {
+		position: absolute;
+		right: 1px;
+		text-align: center;
+		top: 1px;
+		
+	}
+
+	
+	/*--------------------------------------------------*/
